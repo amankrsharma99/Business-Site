@@ -406,6 +406,9 @@ h3{
     .sub-header h1{
         font-size: 24px;
     }
+    nav img{
+        width: 110px;
+    }
 }
 
 /* Contact Us  */
