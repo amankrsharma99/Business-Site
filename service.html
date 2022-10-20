@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services-GrowInstant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/tini logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img id="nav-logo" src="images/Business logo1.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+
+    </section>
+
+    <section class="service">
+        <h1>Services We Offer</h1>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Accounting and Taxation</h3>
+                <p>Goods and Services Tax</p>
+                <p>Income Tax</p>
+                <p>DSC(Digital Signature Certificate)</p>
+                <p>Company Registration</p>
+                <p>E-WAY Bills</p>
+            </div>
+            <div class="service-col">
+                <h3>IT Services</h3>
+                <p>Website Designing and Development</p>
+                <p>Video Editing</p>
+                <p>Graphics Designing</p>
+                <p>Business logo Designing</p>
+                <p>Digital Marketing</p>
+            </div>
+            <div class="service-col">
+                <h3>Financial Services</h3>
+                <p>Loan Services</p>
+                <p>Insurance Services</p>
+                <p>Credit Card Services</p>
+                <p>Bank and Demat Account Opening</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/demat.jpg">
+                <h3>Demat Account Opening</h3>
+                <p>With the GrowInstant, you can now open a free Demat Account from the comforts of your home.
+                    GrowInstant
+                    takes 0% brokerage fee. Besides being the best free Demat Account in the market, it has a simple
+                    interface that is very easy to use. All transactions are paperless. You also get regular updates on
+                    the hottest investment opportunities available in the market.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/loan.jpg">
+                <h3>Providing Loans</h3>
+                <p>GrowInstant offers you a wide range of loans that will fulfill your every wish whether it is moving
+                    into
+                    your new home, buying your dream car, growing your business manifold or treating your family with
+                    the perfect vacation. What are you waiting for? Say YES to all your dreams now with minimal
+                    paperwork, easy application processing and 1 min In-Principle Loan Approval
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/credit1.jpg">
+                <h3>Issue of Credit Cards</h3>
+                <p>A great credit card can take you on a brilliant journey - where you travel, shop and dine your way to
+                    happiness. When you apply through an GrowInstant Bank Credit Card online, you are taking your first
+                    step on
+                    that journey.
+                    Whether you need to purchase groceries for your home, or plane tickets for that well-deserved
+                    vacation, there is an Credit Card for every occasion. Take a step forward with a Credit
+                    Card that’s designed to meet your needs always with GrowInstant. Apply for one, now!
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/gst.jpg">
+                <h3>GST and Taxation</h3>
+                <p>We provide GST and Taxation Services. The Goods and Service Tax Network (or GSTN) is a non-profit,
+                    non-government organization. It will
+                    manage the entire IT system of the GST portal, which is the mother database for everything GST. The
+                    government will use this portal to track every financial transaction and provide taxpayers with all
+                    services – from registration to filing taxes and maintaining all tax details.
+                </p>
+            </div>
+            <div class="facilities-col" id="finance">
+                <img src="images/finance.jpg">
+                <h3>Financial Services</h3>
+                <p>We are specialized in various fields and sector of Finance and Business Growth. A place where our
+                    clients can belief us with complete transparency and trustworthy attitude.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/web.jpg">
+                <h3>Web Designing and Development</h3>
+                <p>GrowInstant India's No 1 Web design And Web Development Company. 100% Trusted Registered Company.
+                    we provide unique and Best quality websites to customers at a very affordable price. We have
+                    completed more than 100+ websites so far.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a team of young and energetic professionals who always think out of the box and make effective
+            strategies<br> for your projects to help you achieve success in marketing and branding of your business.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Aman Sharma</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-500px";
+        }
+    </script>
+
+</body>
+
+</html>
