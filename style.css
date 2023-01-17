@@ -210,7 +210,7 @@ h3{
 .facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     text-align: left;
 }
 .facilities-col img{
@@ -224,6 +224,12 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+}
+.fssai-img {
+    padding-top: 14px;
+}
+.gst-img {
+    padding-top: 145px;
 }
 .testimonials{
     width: 80%;
@@ -406,9 +412,6 @@ h3{
     .sub-header h1{
         font-size: 24px;
     }
-    nav img{
-        width: 110px;
-    }
 }
 
 /* Contact Us  */
@@ -458,4 +461,9 @@ h3{
 }
 #finance{
     padding-top: 11.3%;
+}
+@media(max-width: 700px){
+    nav img{
+        width: 110px;
+    }
 }
